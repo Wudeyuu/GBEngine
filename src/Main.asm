@@ -6,4 +6,10 @@ start:
 SECTION "main", ROM0[$150]
 
 main:
-	jp main
+	call init
+	.mainLoop:
+		call wait
+
+		call update
+		
+		jr .mainLoop

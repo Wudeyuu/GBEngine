@@ -1,2 +1,2 @@
-# GAMEBOY TEST GAME
-A gameboy testgame written in GBZ80 asm.
+# GAMEBOY SIMPLE ENGINE
+A simple engine for gameboy written in GBZ80 asm.
